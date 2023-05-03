@@ -56,3 +56,8 @@ date 2023-05-01
 
 Cancel laundry booking by id
 > DELETE /api/v1/laundry-bookings/{id}
+
+
+SQL Model:
+------------
+![Image](src/main/resources/laundryAppSqlModel.png)
