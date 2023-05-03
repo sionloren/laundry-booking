@@ -17,7 +17,7 @@ How to run the application:
 3. Run the following command to start the application: 
     > ./mvnw spring-boot:run
 4. You can access the endpoints through the following:
-    > http://localhost:8080
+    > http://localhost:8080/api/v1/laundry-bookings
    
 How to run the tests in the application: 
 -------------------------
