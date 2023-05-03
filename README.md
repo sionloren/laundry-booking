@@ -1,6 +1,6 @@
 # Laundry Booking Application
 
-This is a laundry booking app that allows residents in households to booking laundry time slots in shared building laundry rooms.
+This is a laundry booking app that allows residents in households to book laundry time slots in shared building laundry rooms.
 The app is equipped with features such as the ability to list available and booked laundry times, book available slots, and allow cancellations.
 
 The app can be utilized through its REST API endpoints while data is stored in an in-memory database to make setup easier for users. 
@@ -20,6 +20,7 @@ How to run the application:
     > http://localhost:8080
    
 How to run the tests in the application: 
+-------------------------
 1. Clone the repository to your local machine
 2. Open the terminal and navigate to the project directory.
 3. Run the following command to run the tests in the application:
