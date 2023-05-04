@@ -36,7 +36,7 @@ Request Body:
 {
    "householdId": 0,
    "laundryRoomId": 0,
-   "date": "string",
+   "date": "YYYY-MM-dd",
    "timeBlockId": 0
 }
 ```
@@ -49,9 +49,9 @@ Get all laundry bookings
 Get available laundry booking timeslots by date
 > GET    /api/v1/laundry-bookings/time-blocks/available
 
-Request parameter:
+Request query parameter:
 ```
-date 2023-05-01
+?date=2023-05-01
 ```
 
 Cancel laundry booking by id
